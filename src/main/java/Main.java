@@ -16,7 +16,7 @@ public class Main
     {
         public static void main(String[] args)
             {
-                DiscordClient client = DiscordClient.create("OTkwOTE3NjY3ODg2MDcxODQ4.GJ6f5J.QlNfpwyOpNnMkVjKXV8Nm3qc9UXClk54tRaxDs");
+                DiscordClient client = DiscordClient.create("OTkwOTE3NjY3ODg2MDcxODQ4.GFtRYg.XS_S5-XhoLYr2B6CVQ2PvxDZYXyrh5TUXMc6lM");
 
                 Mono<Void> login = client.withGateway((GatewayDiscordClient gateway) ->
                         {
